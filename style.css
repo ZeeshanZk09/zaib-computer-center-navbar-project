@@ -1,0 +1,58 @@
+/* utility setup */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  outline: none;
+  color: #010101;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #f0f0f0;
+  border: none;
+}
+
+.navbar {
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  min-width: 60%;
+}
+
+.nav-links > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-btn {
+  background-color: blueviolet;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  border-radius: 50rem;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+}

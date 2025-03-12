@@ -138,7 +138,7 @@ button {
   /* transform: translateY(-100px); */
 }
 .transform:hover {
-  transform: rotateY(360deg);
+  transform: skew(180deg);
 
   /* transform: translateX(-100px); */
   /* transform: translate(100px); */
@@ -162,3 +162,70 @@ button {
 .sidebar:hover {
   width: 30%;
 } */
+
+/* .animation {
+  margin: 10px;
+  width: 400px;
+  height: 500px;
+  background-color: #4a90e2;
+  animation: myName 1s ease-in-out 3s infinite normal;
+}
+
+@keyframes myName {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translateY(-100px);
+  }
+} */
+
+.animation {
+  margin: 10px;
+  width: 400px;
+  height: 500px;
+  background-color: #4a90e2;
+  animation: upAndDown 1s linear 1s infinite;
+}
+
+@keyframes upAndDown {
+  from {
+    font-size: 16px;
+    /* transform: translateX(100px); */
+  }
+  to {
+    font-size: 30px;
+    /* transform: translateX(-100px); */
+  }
+}
+.img-animation {
+  animation: imgAnimation 10s infinite ease-in 2s;
+}
+
+@keyframes imgAnimation {
+  from {
+    filter: invert(0);
+  }
+  to {
+    filter: invert(100);
+  }
+}
+
+.colorTheme {
+  width: 1000px;
+  height: 100px;
+  border: 1px solid black;
+  animation: color-theme 10s ease-in-out infinite;
+}
+
+@keyframes color-theme {
+  from {
+    background-color: #fff;
+  }
+  to {
+    background-color: #000;
+  }
+}
+
+/* 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f */
+/* #123 */

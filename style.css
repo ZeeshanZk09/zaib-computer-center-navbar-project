@@ -229,3 +229,32 @@ button {
 
 /* 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f */
 /* #123 */
+
+.animation-direction {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: aqua;
+  }
+}
